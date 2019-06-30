@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/p5.js"></script>
+    <script src="js/lib/p5.dom.js"></script>
+    <title>My site💗</title>
+  </head>
+  <body onresize="windowResized()">
+    <!-- <div id="bgDiv">
+      <video id="stMov" onclick="playStv()" onended="start()" preload="auto">
+        <source src="video/beginning.mp4" type="video/mp4">
+      </video>
+    </div> -->
+    <div class="wholePage">
+      <div id="topbar">
+        <div id="searchIconCtn" onmouseover="showSearchBar()">
+          <img src="image/seach.png" id="searchIcon">
+        </div>
+        <div id="inputBar" onmouseout="hideSearchBar()">
+          <input type="text" id="searchBar" value=" Trending | #Perfect lifestyle...">
+        </div>
+      </div>
+      <p id="upBtn"> ⇈ </p>
+      <div id="frame">
+        <div id="web">
+          <div class="webContent" id="post1">
+            <div class="postContent"></div>
+            <img src="image/prof1.jpeg" class="profilePic">
+            <button class="subscribe" id="sub1" onclick="onSubscribe(1)">➕Subscribe</button>
+            <p class="name">crystalsmakeup👑</p><br>
+            <p class="time">Today 10:12am</p>
+            <p class="pText" id="pText1">Divine rose scent...🔮🌹
+thank you @diormakeup @burberry @cdp @shiseido @lancome @prada @guccibeauty</p>
+            <img src="image/brandsPo.png" class="poPic">
+            <div class="navbar" id="navbar1">
+              <a class="fvr" onclick="onFavorite(1)">🌟 Favourite</a>
+              <a class="like" onclick="onLike(1)">❤️ Like</a>
+              <a id="comment1" onclick="onComment()">🎤 Comment</a>
+            </div>
+            <input type="text" value="###" class="inputBar">
+          </div>
+          <div class="webContent" id="post2">
+            <div class="postContent" id="postContent2"></div>
+            <img src="image/pizzapost-portrait.jpg" class="profilePic">
+            <button class="subscribe" id="sub2" onclick="onSubscribe(2)">➕Subscribe</button>
+            <p class="name">emilyskitchen</p><br>
+            <p class="time">Today 12:03pm</p>
+            <p class="pText" id="pText2">Inspiration for Easter Lunch in my column for the @sundaytimesfood today: creamy baked bottom with ricotta and mint, Mozzarella with baby tomatoes and Dutch color pepper #inthesundaytimestoday #easterbest</p>
+            <img src="image/pizza.png" class="poPic" id="poPic2">
+            <div class="navbar" id="navbar2">
+              <a class="fvr" onclick="onFavorite(2)">🌟 Favourite</a>
+              <a class="like" onclick="onLike(2)">❤️ Like</a>
+              <a id="comment2" onclick="onComment()">🎤 Comment</a>
+            </div>
+            <input type="text" value="###" class="inputBar">
+          </div>
+          <div class="webContent" id="post3">
+            <div class="postContent" id="postContent3"></div>
+            <img src="image/prof3.jpeg" class="profilePic">
+            <button class="subscribe" id="sub3" onclick="onSubscribe(3)">➕Subscribe</button>
+            <p class="name">Miawannacry</p><br>
+            <p class="time">Today 4:50pm</p>
+            <p class="pText" id="pText3">My blazing birthday cake! I wanna cry💔💔💔</p>
+            <img src="image/cakeonfire.png" class="poPic" id="poPic3">
+            <div class="navbar" id="navbar3">
+              <a class="fvr" onclick="onFavorite(3)">🌟 Favourite</a>
+              <a class="like" onclick="onLike(3)">❤️ Like</a>
+              <a id="comment3" onclick="onComment()">🎤 Comment</a>
+            </div>
+            <input type="text" value="###" class="inputBar">
+          </div>
+        </div>
+      </div>
+      <div id="loadMore" onclick="trigger()">
+        <p id="breakB">CLICK TO LOAD MORE</p>
+      </div>
+      <div id="endDiv" onclick="reload()">
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
