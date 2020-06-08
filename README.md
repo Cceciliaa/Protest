@@ -5,4 +5,5 @@ The first part of this project appears just as a normal social media website, an
 
 I collaborated with another student on this project. All the contents are original. We drafted the texts contents for the posts as well as the messages, and gathered the raw materials for the photos and background sounds. She later photographed all the pictures, and collaged the background sound, while I worked on the codes and established the effects.
 
-Link to the site: http://imanas.shanghai.nyu.edu/~zc1151/commLab/finalProject/index.html
+## Project Link
+To view the project, click http://imanas.shanghai.nyu.edu/~zc1151/commLab/finalProject/index.html
