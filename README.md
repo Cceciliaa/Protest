@@ -7,5 +7,4 @@ I collaborated with another student on this project. All the contents are origin
 
 ## Project Link
 To view the project, click http://imanas.shanghai.nyu.edu/~zc1151/commLab/finalProject/index.html                         
-
 Documentation page: https://wp.nyu.edu/shanghai-ima-documentation/foundations/communications-lab/zc1151/final-project-net-art-cecilia-cai/
